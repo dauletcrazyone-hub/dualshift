@@ -8,6 +8,8 @@ with rumble, gyro aiming, adaptive triggers and your own light bar colour.
 
 Free for 7 days, every feature unlocked. Windows 10 and 11, 64-bit.
 
+[![Downloads](https://img.shields.io/github/downloads/dauletcrazyone-hub/dualshift/total?label=downloads&color=2FBF71)](../../releases/latest)
+
 ![Overview](docs/01-overview.png)
 
 ---
