@@ -76,8 +76,9 @@ nothing is watermarked. After that it needs a key.
 A key is issued for one computer: it is tied to the machine ID, so it keeps
 working after a reinstall of the program, but not on a second PC.
 
-To buy a key, open an [Issue](../../issues) or write to the address in the
-channel description.
+To buy a key, write to **dauletcrazyone@gmail.com** — tell me the machine
+code shown on the Settings page of the program, and the key comes back by
+mail. You can also open an [Issue](../../issues).
 
 ## Privacy
 
