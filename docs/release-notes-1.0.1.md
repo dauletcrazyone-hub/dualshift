@@ -2,7 +2,7 @@ Free for 7 days, every feature unlocked. Windows 10 and 11, 64-bit.
 
 **What's new in 1.0.1**
 
-- **Buy a key right from the app.** A button in the bottom-left corner opens the DualShift bot in Telegram with your computer code already filled in. Pay with Telegram Stars and the key arrives in the same chat — no forms, no copying codes by hand.
+- **Buy a key right from the app.** Settings → License → **Buy a key** opens the DualShift bot in Telegram with your computer code already filled in. Pay with Telegram Stars and the key arrives in the same chat — no forms, no copying codes by hand.
 - The developer credit moved to Settings → About, so the sidebar stays clean.
 
 **What's inside**
@@ -22,7 +22,7 @@ Already have 1.0.0? Just install on top — your settings, profiles and trial st
 
 **Verify the download**
 
-SHA-256 `f43afdc8b73cd5c14e3e184f9a8f3a363755cd3003a90a00dd155358b780efdc`
+SHA-256 `bdc3b8c5a442cbb23d29e0db1d0ea77d464ac82fe2f7e9e9f42bb5519f20f4b8`
 
 ```powershell
 Get-FileHash "$HOME\Downloads\DualShift Demo Setup.exe" -Algorithm SHA256
