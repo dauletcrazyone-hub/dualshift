@@ -78,22 +78,28 @@ nothing is watermarked. After that it needs a key.
 A key is issued for one computer: it is tied to the machine ID, so it keeps
 working after a reinstall of the program, but not on a second PC.
 
-To buy a key, write to **dauletcrazyone@gmail.com** — tell me the machine
-code shown on the Settings page of the program, and the key comes back by
-mail. You can also open an [Issue](../../issues).
+**The quickest way to buy:** press **Buy a key** in the bottom-left corner of
+the program. It opens [@DualShift_bot](https://t.me/DualShift_bot) in
+Telegram with your computer code already filled in — pay with Telegram Stars
+and the key arrives in the same chat, usually within seconds.
+
+No Telegram? Write to **dauletcrazyone@gmail.com** with the computer code from
+Settings, and the key comes back by mail.
 
 ## Privacy
 
 DualShift works offline. There is no account, no telemetry and no analytics —
 the trial dates and the key are stored on your own computer, and the program
-does not send anything anywhere.
+sends nothing on its own. The only thing that ever leaves your PC is the
+computer code, and only when you press **Buy a key** yourself: it goes into
+the Telegram link so the bot knows which computer to issue the key for.
 
 ## Verifying the download
 
-`DualShift Demo Setup.exe` — 46.5 MB
+`DualShift Demo Setup.exe` 1.0.1 — 46.5 MB
 
 ```
-SHA-256  7985c3909b9886fcddecc880c96096891e31f10c4dfb9cd4bf7325a81fae75f5
+SHA-256  f43afdc8b73cd5c14e3e184f9a8f3a363755cd3003a90a00dd155358b780efdc
 ```
 
 Check it in PowerShell before running:
