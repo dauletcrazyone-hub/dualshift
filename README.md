@@ -42,7 +42,15 @@ layouts.
 **Per-game profiles.** Button mapping, stick dead zones and response curves,
 light bar, rumble and trigger settings are saved per game and switch with it.
 
+**Live controller model.** The Overview page shows your pad as a detailed
+model that reacts to every press: buttons light up and sink, sticks tilt,
+triggers travel as far as you pull them, the light bar glows in its real
+colour and touches appear on the touchpad. Look at it flat, front and back,
+or switch to 3D and turn it around with the mouse.
+
 **14 interface languages**, light and dark theme.
+
+![3D view](docs/06-overview-3d.png)
 
 | Live input and mapping | Mouse and keyboard |
 |---|---|
@@ -97,10 +105,10 @@ the Telegram link so the bot knows which computer to issue the key for.
 
 ## Verifying the download
 
-`DualShift Demo Setup.exe` 1.0.1 — 46.5 MB
+`DualShift Demo Setup.exe` 1.0.1 — 51.3 MB
 
 ```
-SHA-256  bdc3b8c5a442cbb23d29e0db1d0ea77d464ac82fe2f7e9e9f42bb5519f20f4b8
+SHA-256  4391b92b0bd4e6326041ba8eb97ce9bf736f9e6fa1d1e5c15b72c4975808a102
 ```
 
 Check it in PowerShell before running:
@@ -116,6 +124,12 @@ model and how it is connected — USB or Bluetooth — and what the Overview
 page shows.
 
 ---
+
+3D controller model: ["Playstation 5 Dualsense"](https://sketchfab.com/3d-models/playstation-5-dualsense-878c1f882808477ab81c2fe86d5a3936)
+by [AHarmlessPotato](https://sketchfab.com/AHarmlessPotato), licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Modified: the logo
+on the centre button and the lettering on the back were removed, textures
+were downscaled and the parts were split so they can move with live input.
 
 Made by Daulet Kuanysh. DualShift is not affiliated with Sony Interactive
 Entertainment or Microsoft. PlayStation, DualSense, DualShock and Xbox are
