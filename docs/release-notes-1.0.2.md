@@ -1,6 +1,6 @@
 Free for 7 days, every feature unlocked. Windows 10 and 11, 64-bit.
 
-**What's new in 1.0.3**
+**What's new in 1.0.2**
 
 - **Keyboard keys from the controller.** Hold PS and press a second button to send a key combination — leave a game with **PS + Options** (Alt+Tab), open Start with **PS + Create**, press Esc, show the desktop, change the volume. Works in games and in mouse mode. Every combo is yours to change on the **Mouse** page: pick the buttons and the keys from a list, or record your own combination. The held button does not reach the game while you hold it, and a normal short tap still does.
 - **Games that run as administrator.** Windows blocks key presses into such games. DualShift now notices it and offers to restart with administrator rights, and there is a new switch in Settings → Behaviour: **Run as administrator**.
@@ -26,7 +26,7 @@ Already have 1.0.0 or 1.0.1? Just install on top — your settings, profiles and
 
 **Verify the download**
 
-SHA-256 `ab76de01a246555b7742506d8a4f79414179c0a47fd696fe214e0577c730995a`
+SHA-256 `a948148129b5afabde0a8e9df08fcbd88b6813bfb57d4041aa8cab81035e3f0f`
 
 ```powershell
 Get-FileHash "$HOME\Downloads\DualShift Demo Setup.exe" -Algorithm SHA256

@@ -121,10 +121,10 @@ the Telegram link so the bot knows which computer to issue the key for.
 
 ## Verifying the download
 
-`DualShift Demo Setup.exe` 1.0.3 — 51.4 MB
+`DualShift Demo Setup.exe` 1.0.2 — 51.4 MB
 
 ```
-SHA-256  ab76de01a246555b7742506d8a4f79414179c0a47fd696fe214e0577c730995a
+SHA-256  a948148129b5afabde0a8e9df08fcbd88b6813bfb57d4041aa8cab81035e3f0f
 ```
 
 Check it in PowerShell before running:
