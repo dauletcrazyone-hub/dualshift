@@ -35,6 +35,14 @@ moment of the shot. Tune it per game.
 stick, the gyro or the touchpad, click with the shoulder buttons. Start a
 film, scroll a feed, close a window — without getting up.
 
+**Keyboard keys from the controller.** Hold PS and press a second button to
+send a key combination: **PS + Options** switches out of the game (Alt+Tab),
+**PS + Create** opens Start, others press Esc, show the desktop or change the
+volume. Pick your own buttons and keys on the Mouse page, or record any
+combination. Works in games and in mouse mode.
+
+![Keyboard keys](docs/07-hotkeys.png)
+
 **On-screen keyboard.** Opens in its own window and types into whatever is
 active — a browser, a search box, a chat. English, Russian and Kazakh
 layouts.
@@ -78,6 +86,14 @@ or switch to 3D and turn it around with the mouse.
 To remove it: Windows Settings → Apps → DualShift → Uninstall. ViGEmBus is
 left in place, other programs may be using it; it uninstalls the same way.
 
+## If a key combo does nothing in a game
+
+Some games run **as administrator**, and Windows does not let ordinary
+programs press keys inside them. DualShift notices this and offers to restart
+with administrator rights; you can also turn on **Settings → Behaviour → Run
+as administrator**. Games protected by anti-cheat may block synthetic key
+presses altogether.
+
 ## Demo and full version
 
 The demo runs **7 days with every feature unlocked** — nothing is disabled,
@@ -105,10 +121,10 @@ the Telegram link so the bot knows which computer to issue the key for.
 
 ## Verifying the download
 
-`DualShift Demo Setup.exe` 1.0.1 — 51.3 MB
+`DualShift Demo Setup.exe` 1.0.2 — 51.4 MB
 
 ```
-SHA-256  4391b92b0bd4e6326041ba8eb97ce9bf736f9e6fa1d1e5c15b72c4975808a102
+SHA-256  5f33e9675e52173bc48811590132043c54f879c3db02039db6cfe158fa184ab4
 ```
 
 Check it in PowerShell before running:
