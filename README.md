@@ -23,13 +23,20 @@ games have always understood. If a game does speak PlayStation, switch the
 output to DualShock 4 and keep the native button icons and the touchpad.
 
 **Rumble that arrives.** Force feedback from the game reaches the motors in
-your hands the way it does on a console. The strength is adjustable.
+your hands the way it does on a console. The strength is adjustable, and
+**Test rumble** checks both motors without starting a game.
 
 **Gyro aiming.** The stick does the big turn, a light move of the hands does
 the fine aim — the way console shooters are played, now on PC.
 
 **Adaptive triggers.** A trigger can resist, fire in bursts, or click at the
 moment of the shot. Tune it per game.
+
+**Turbo.** Hold a button and the game gets rapid repeated presses — from 2 to
+20 a second. Pick the buttons on the Buttons page: face buttons, shoulders,
+stick clicks, the D-pad, and L2 and R2 too.
+
+![Turbo](docs/09-turbo.png)
 
 **Mouse mode.** One button turns the pad into a mouse: move the cursor with a
 stick, the gyro or the touchpad, click with the shoulder buttons. Start a
@@ -47,14 +54,25 @@ combination. Works in games and in mouse mode.
 active — a browser, a search box, a chat. English, Russian and Kazakh
 layouts.
 
-**Per-game profiles.** Button mapping, stick dead zones and response curves,
-light bar, rumble and trigger settings are saved per game and switch with it.
+**Profiles that switch with the game.** Button mapping, stick dead zones and
+response curves, light bar, rumble, turbo and trigger settings are saved per
+game. Add the game to its profile — pick it from the programs that are open,
+or choose its .exe — and DualShift turns that profile on when the game comes
+to the front, then goes back to the previous one when you leave. Profiles can
+be exported to a file and imported on another PC or by a friend. You can also
+switch profiles from the tray icon, without opening the window.
+
+![Profiles](docs/08-auto-profiles.png)
 
 **Live controller model.** The Overview page shows your pad as a detailed
 model that reacts to every press: buttons light up and sink, sticks tilt,
 triggers travel as far as you pull them, the light bar glows in its real
 colour and touches appear on the touchpad. Look at it flat, front and back,
 or switch to 3D and turn it around with the mouse.
+
+**Low battery warning.** When the controller drops to 15%, and again at 5%,
+Windows shows a notification and the pad buzzes twice — so the match does not
+end with a dead controller.
 
 **14 interface languages**, light and dark theme.
 
@@ -82,6 +100,10 @@ or switch to 3D and turn it around with the mouse.
 3. Agree to install ViGEmBus when the installer offers it. This step asks for
    administrator rights — the driver needs them, DualShift itself does not.
 4. Connect the controller, open DualShift, press **Start bridge**.
+
+Already have an older version? Install on top — your settings, profiles and
+trial stay where they are. When a new version comes out, the Overview page
+tells you and links to the download.
 
 To remove it: Windows Settings → Apps → DualShift → Uninstall. ViGEmBus is
 left in place, other programs may be using it; it uninstalls the same way.
@@ -113,18 +135,24 @@ Settings, and the key comes back by mail.
 
 ## Privacy
 
-DualShift works offline. There is no account, no telemetry and no analytics —
-the trial dates and the key are stored on your own computer, and the program
-sends nothing on its own. The only thing that ever leaves your PC is the
-computer code, and only when you press **Buy a key** yourself: it goes into
-the Telegram link so the bot knows which computer to issue the key for.
+There is no account, no telemetry and no analytics — the trial dates, the key
+and your profiles are stored on your own computer.
+
+DualShift makes one request on its own: at startup it asks GitHub for the
+number of the latest release, to tell you when an update is out. Nothing about
+you, your PC or your controller goes with it, and you can turn it off in
+**Settings → About → Check for updates automatically**.
+
+The computer code leaves your PC only when you press **Buy a key** yourself:
+it goes into the Telegram link so the bot knows which computer to issue the
+key for.
 
 ## Verifying the download
 
-`DualShift Demo Setup.exe` 1.0.2 — 51.4 MB
+`DualShift Demo Setup.exe` 1.0.3 — 51.5 MB
 
 ```
-SHA-256  a948148129b5afabde0a8e9df08fcbd88b6813bfb57d4041aa8cab81035e3f0f
+SHA-256  bd95174a2a3a094f8c48a5aeb067b95764a3fc2bb1639986fee638250be5af97
 ```
 
 Check it in PowerShell before running:
