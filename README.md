@@ -4,9 +4,12 @@
 pad, so your DualSense or DualShock 4 works where it used to be ignored —
 with rumble, gyro aiming, adaptive triggers and your own light bar colour.
 
-### [⬇ Download the demo](../../releases/latest)
+### [⬇ Download DualShift](../../releases/latest)
 
-Free for 7 days, every feature unlocked. Windows 10 and 11, 64-bit.
+**Free forever** — the bridge, button mapping, gyro, adaptive triggers and the
+light bar never expire. **Pro** adds mouse mode, keyboard keys from the
+controller, turbo, the on-screen keyboard and per-game profiles: free for the
+first 7 days, then a one-time 500 Telegram Stars. Windows 10 and 11, 64-bit.
 
 [![Downloads](https://img.shields.io/github/downloads/dauletcrazyone-hub/dualshift/total?label=downloads&color=2FBF71)](../../releases/latest)
 
@@ -74,7 +77,15 @@ or switch to 3D and turn it around with the mouse.
 Windows shows a notification and the pad buzzes twice — so the match does not
 end with a dead controller.
 
-**14 interface languages**, light and dark theme.
+**Stick drift check.** Leave the sticks alone for three seconds: DualShift
+measures how much they drift at rest and sets the dead zones for you.
+
+**Light bar effects.** Besides a solid colour and a battery indicator, the
+light bar can breathe in your colour or run through a rainbow.
+
+**14 interface languages**, light and dark theme, smooth animations.
+
+![DualShift Pro](docs/10-pro.png)
 
 ![3D view](docs/06-overview-3d.png)
 
@@ -92,7 +103,7 @@ end with a dead controller.
 
 ## Installing
 
-1. Download `DualShift Demo Setup.exe` from
+1. Download `DualShift Setup.exe` from
    [Releases](../../releases/latest).
 2. Run it. Windows will show a **SmartScreen warning** — the installer is not
    code-signed yet. Click **More info → Run anyway**. (A signing certificate
@@ -102,7 +113,8 @@ end with a dead controller.
 4. Connect the controller, open DualShift, press **Start bridge**.
 
 Already have an older version? Install on top — your settings, profiles and
-trial stay where they are. When a new version comes out, the Overview page
+key stay where they are. If you had **DualShift Demo**, the installer replaces
+it with the regular version. When a new version comes out, the Overview page
 tells you and links to the download.
 
 To remove it: Windows Settings → Apps → DualShift → Uninstall. ViGEmBus is
@@ -116,22 +128,37 @@ with administrator rights; you can also turn on **Settings → Behaviour → Run
 as administrator**. Games protected by anti-cheat may block synthetic key
 presses altogether.
 
-## Demo and full version
+## Free and Pro
 
-The demo runs **7 days with every feature unlocked** — nothing is disabled,
-nothing is watermarked. After that it needs a key.
+| | Free | Pro |
+|---|:---:|:---:|
+| Games see your controller — Xbox 360 or DualShock 4 | ✓ | ✓ |
+| Button mapping, dead zones, response curves | ✓ | ✓ |
+| Gyro aiming, adaptive triggers | ✓ | ✓ |
+| Light bar with effects, rumble, live 3D model | ✓ | ✓ |
+| Stick drift check | ✓ | ✓ |
+| Mouse mode: cursor from a stick, the gyro or the touchpad | — | ✓ |
+| Keyboard keys from the controller: Alt+Tab, Esc, volume | — | ✓ |
+| On-screen keyboard | — | ✓ |
+| Turbo | — | ✓ |
+| Per-game profiles that switch automatically | — | ✓ |
+
+For the first **7 days** after installing, Pro is on in full. After that
+DualShift keeps working as Free — nothing stops, the Pro cards simply lock
+until you enter a key. **Pro is a one-time 500 Telegram Stars**, with updates
+and no end date.
 
 A key is issued for one computer: it is tied to the machine ID, so it keeps
 working after a reinstall of the program, but not on a second PC.
 
-**The quickest way to buy:** open **Settings → License** in the program and
-press **Buy a key** (when the trial runs out, the same button also appears on
-the Overview page). It opens [@DualShift_bot](https://t.me/DualShift_bot) in
-Telegram with your computer code already filled in — pay with Telegram Stars
-and the key arrives in the same chat, usually within seconds.
+**How to buy:** open the **DualShift Pro** page in the program and press
+**Buy**. It opens [@DualShift_bot](https://t.me/DualShift_bot) in Telegram
+with your computer code already filled in — pay with Telegram Stars and the
+key arrives in the same chat, usually within seconds. Paste it on the same
+page and press **Activate**.
 
 No Telegram? Write to **dauletcrazyone@gmail.com** with the computer code from
-Settings, and the key comes back by mail.
+the DualShift Pro page, and the key comes back by mail.
 
 ## Privacy
 
@@ -149,16 +176,16 @@ key for.
 
 ## Verifying the download
 
-`DualShift Demo Setup.exe` 1.0.3 — 51.5 MB
+`DualShift Setup.exe` 1.0.4 — 51.0 MB
 
 ```
-SHA-256  bd95174a2a3a094f8c48a5aeb067b95764a3fc2bb1639986fee638250be5af97
+SHA-256  7b11efb6840a9c73085034dd35ebe9f42c803f55db1bcd153b4bfe0861872c7b
 ```
 
 Check it in PowerShell before running:
 
 ```powershell
-Get-FileHash "$HOME\Downloads\DualShift Demo Setup.exe" -Algorithm SHA256
+Get-FileHash "$HOME\Downloads\DualShift Setup.exe" -Algorithm SHA256
 ```
 
 ## Questions, bugs, requests
