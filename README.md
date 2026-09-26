@@ -176,10 +176,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.0.4 — 51.0 MB
+`DualShift Setup.exe` 1.0.5 — 51.0 MB
 
 ```
-SHA-256  7b11efb6840a9c73085034dd35ebe9f42c803f55db1bcd153b4bfe0861872c7b
+SHA-256  4c43a772a6aecbf3a445d5d660599ec37a933629ca31bb7e0d8812b28681b008
 ```
 
 Check it in PowerShell before running:
