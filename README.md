@@ -29,70 +29,98 @@ output to DualShock 4 and keep the native button icons and the touchpad.
 your hands the way it does on a console. The strength is adjustable, and
 **Test rumble** checks both motors without starting a game.
 
-**Gyro aiming.** The stick does the big turn, a light move of the hands does
-the fine aim — the way console shooters are played, now on PC.
-
-**Adaptive triggers.** A trigger can resist, fire in bursts, or click at the
-moment of the shot. Tune it per game.
-
-**Turbo.** Hold a button and the game gets rapid repeated presses — from 2 to
-20 a second. Pick the buttons on the Buttons page: face buttons, shoulders,
-stick clicks, the D-pad, and L2 and R2 too.
-
-![Turbo](docs/09-turbo.png)
-
-**Mouse mode.** One button turns the pad into a mouse: move the cursor with a
-stick, the gyro or the touchpad, click with the shoulder buttons. Start a
-film, scroll a feed, close a window — without getting up.
-
-**Keyboard keys from the controller.** Hold PS and press a second button to
-send a key combination: **PS + Options** switches out of the game (Alt+Tab),
-**PS + Create** opens Start, others press Esc, show the desktop or change the
-volume. Pick your own buttons and keys on the Mouse page, or record any
-combination. Works in games and in mouse mode.
-
-![Keyboard keys](docs/07-hotkeys.png)
-
-**On-screen keyboard.** Opens in its own window and types into whatever is
-active — a browser, a search box, a chat. English, Russian and Kazakh
-layouts.
-
-**Profiles that switch with the game.** Button mapping, stick dead zones and
-response curves, light bar, rumble, turbo and trigger settings are saved per
-game. Add the game to its profile — pick it from the programs that are open,
-or choose its .exe — and DualShift turns that profile on when the game comes
-to the front, then goes back to the previous one when you leave. Profiles can
-be exported to a file and imported on another PC or by a friend. You can also
-switch profiles from the tray icon, without opening the window.
-
-![Profiles](docs/08-auto-profiles.png)
-
 **Live controller model.** The Overview page shows your pad as a detailed
 model that reacts to every press: buttons light up and sink, sticks tilt,
 triggers travel as far as you pull them, the light bar glows in its real
 colour and touches appear on the touchpad. Look at it flat, front and back,
 or switch to 3D and turn it around with the mouse.
 
+![Live 3D model](docs/06-overview-3d.png)
+
+**Any button, any action.** Every button can do the job of any Xbox button —
+cross, circle, square and triangle are drawn just like on the controller.
+
+![Buttons](docs/02-buttons.png)
+
+**Sticks tuned to your hands.** Dead zone, full deflection, response curve,
+anti-dead zone and sensitivity for each stick and trigger.
+
+![Sticks and triggers](docs/03-axes.png)
+
+**Stick drift check.** Leave the sticks alone for three seconds: DualShift
+measures how much they drift at rest and offers the right dead zones — one
+click on **Apply**.
+
+![Stick drift check](docs/12-drift.png)
+
+**Gyro aiming.** The stick does the big turn, a light move of the hands does
+the fine aim — the way console shooters are played, now on PC. It can work
+all the time or only while you hold L2, like aiming down sights.
+
+![Gyro](docs/11-gyro.png)
+
+**Adaptive triggers.** A trigger can resist, fire in bursts, or click at the
+moment of the shot. Set the start point, strength and speed for L2 and R2
+separately, per game.
+
+![Adaptive triggers](docs/13-triggers.png)
+
+**Light bar and rumble.** A solid colour of your choice, a battery indicator,
+or effects: the light bar can breathe in your colour or run through a
+rainbow. Brightness, player lights and the microphone light are here too.
+
+![Effects](docs/05-effects.png)
+
+**Turbo** *(Pro)*. Hold a button and the game gets rapid repeated presses —
+from 2 to 20 a second. Face buttons, shoulders, stick clicks, the D-pad, and
+L2 and R2 too.
+
+![Turbo](docs/09-turbo.png)
+
+**Mouse mode** *(Pro)*. One button turns the pad into a mouse: move the cursor
+with a stick, the gyro or the touchpad, click with the shoulder buttons,
+scroll with the other stick. Start a film, scroll a feed, close a window —
+without getting up.
+
+![Mouse mode](docs/04-mouse.png)
+
+**Keyboard keys from the controller** *(Pro)*. Hold PS and press a second
+button to send a key combination: **PS + Options** switches out of the game
+(Alt+Tab), **PS + Create** opens Start, others press Esc, show the desktop or
+change the volume. Pick your own buttons and keys, or record any combination.
+Works in games and in mouse mode.
+
+![Keyboard keys](docs/07-hotkeys.png)
+
+**On-screen keyboard** *(Pro)*. Opens in its own window and types into
+whatever is active — a browser, a search box, a chat. English, Russian and
+Kazakh layouts.
+
+![On-screen keyboard](docs/14-keyboard.png)
+
+**Profiles that switch with the game** *(Pro)*. Button mapping, stick dead
+zones and response curves, light bar, rumble, turbo and trigger settings are
+saved per game. Add the game to its profile — pick it from the programs that
+are open, or choose its .exe — and DualShift turns that profile on when the
+game comes to the front, then goes back to the previous one when you leave.
+Profiles can be exported to a file and imported on another PC or by a friend.
+You can also switch profiles from the tray icon, without opening the window.
+
+![Profiles](docs/08-auto-profiles.png)
+
 **Low battery warning.** When the controller drops to 15%, and again at 5%,
 Windows shows a notification and the pad buzzes twice — so the match does not
 end with a dead controller.
 
-**Stick drift check.** Leave the sticks alone for three seconds: DualShift
-measures how much they drift at rest and sets the dead zones for you.
+**14 interface languages**, a dark and a light theme, smooth animations.
 
-**Light bar effects.** Besides a solid colour and a battery indicator, the
-light bar can breathe in your colour or run through a rainbow.
+![Light theme](docs/16-light.png)
 
-**14 interface languages**, light and dark theme, smooth animations.
+**DualShift Pro.** Everything above marked *Pro* — one payment, no
+subscription. The Pro page shows your licence, the price and what each plan
+includes.
 
 ![DualShift Pro](docs/10-pro.png)
-
-![3D view](docs/06-overview-3d.png)
-
-| Live input and mapping | Mouse and keyboard |
-|---|---|
-| ![Buttons](docs/02-buttons.png) | ![Mouse](docs/04-mouse.png) |
-| ![Axes](docs/03-axes.png) | ![Effects](docs/05-effects.png) |
 
 ## Requirements
 
@@ -179,7 +207,7 @@ key for.
 `DualShift Setup.exe` 1.0.5 — 51.0 MB
 
 ```
-SHA-256  4c43a772a6aecbf3a445d5d660599ec37a933629ca31bb7e0d8812b28681b008
+SHA-256  63494d55f6771d15413ae1fc148ba13765b9d89f0177ac3fac8eeec1f993dcd4
 ```
 
 Check it in PowerShell before running:

@@ -8,6 +8,8 @@
 - **No more settings changed by accident.** Scrolling a page over a slider or a list used to change its value. Now the wheel scrolls the page, and a slider or list reacts to the wheel only after you click it.
 - **Faster.** Switching the profile, the language or the theme is about ten times quicker, the window opens sooner, and scrolling redraws less.
 - **Fixed:** after switching pages very quickly, a page could stay a few pixels lower than it should.
+- **Fixed:** the cursor speed on the Mouse page showed its unit in Russian letters in every language.
+- **The version is in the file properties.** Right-click `DualShift.exe` → Properties → Details shows 1.0.5, and so does Windows Settings → Apps.
 
 Everything from 1.0.4 is here too: the free version, DualShift Pro, the new look, the stick drift check and the light bar effects.
 
@@ -19,7 +21,7 @@ Already have an earlier version? Install on top — your settings, profiles and 
 
 **Verify the download**
 
-SHA-256 `4c43a772a6aecbf3a445d5d660599ec37a933629ca31bb7e0d8812b28681b008`
+SHA-256 `63494d55f6771d15413ae1fc148ba13765b9d89f0177ac3fac8eeec1f993dcd4`
 
 ```powershell
 Get-FileHash "$HOME\Downloads\DualShift Setup.exe" -Algorithm SHA256
