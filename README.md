@@ -55,12 +55,17 @@ click on **Apply**.
 
 **Gyro aiming.** The stick does the big turn, a light move of the hands does
 the fine aim — the way console shooters are played, now on PC. It can work
-all the time or only while you hold L2, like aiming down sights.
+all the time or only while you hold L2, like aiming down sights. Send the gyro
+into a stick, or into the **mouse** for pixel-precise aim in PC shooters: the
+game gets mouse movement together with the controller, the way Steam Input and
+JoyShockMapper do it.
 
 ![Gyro](docs/11-gyro.png)
 
-**Adaptive triggers.** A trigger can resist, fire in bursts, or click at the
-moment of the shot. Set the start point, strength and speed for L2 and R2
+**Adaptive triggers.** Six effects built into the DualSense: resistance,
+progressive resistance that builds up like a brake pedal, a semi-automatic
+click at the moment of the shot, automatic fire, a bow string that snaps back
+and a galloping rhythm. Set the start point, strength and speed for L2 and R2
 separately, per game.
 
 ![Adaptive triggers](docs/13-triggers.png)
@@ -87,8 +92,9 @@ without getting up.
 **Keyboard keys from the controller** *(Pro)*. Hold PS and press a second
 button to send a key combination: **PS + Options** switches out of the game
 (Alt+Tab), **PS + Create** opens Start, others press Esc, show the desktop or
-change the volume. Pick your own buttons and keys, or record any combination.
-Works in games and in mouse mode.
+change the volume. Ready-made combos also take a game screenshot, record the
+last 30 seconds or start a recording through Xbox Game Bar. Pick your own
+buttons and keys, or record any combination. Works in games and in mouse mode.
 
 ![Keyboard keys](docs/07-hotkeys.png)
 
@@ -107,6 +113,17 @@ Profiles can be exported to a file and imported on another PC or by a friend.
 You can also switch profiles from the tray icon, without opening the window.
 
 ![Profiles](docs/08-auto-profiles.png)
+
+**Motion for emulators.** Turn on the DSU motion server in Settings, and
+Cemu, Ryujinx, Dolphin, Citra and other emulators get the controller's gyro
+for motion controls — steer, aim and shake the way the original console
+games expect. It listens on this computer only (127.0.0.1, port 26760).
+
+![Motion server for emulators](docs/17-emulators.png)
+
+**No double input from Steam.** When Steam is running, the Overview page
+reminds you how to avoid a game seeing the controller twice: turn off Steam
+Input for that game, or turn on exclusive access in DualShift.
 
 **Low battery warning.** When the controller drops to 15%, and again at 5%,
 Windows shows a notification and the pad buzzes twice — so the match does not
@@ -164,6 +181,8 @@ presses altogether.
 | Button mapping, dead zones, response curves | ✓ | ✓ |
 | Gyro aiming, adaptive triggers | ✓ | ✓ |
 | Light bar with effects, rumble, live 3D model | ✓ | ✓ |
+| Gyro as a mouse for precise aim in PC games | ✓ | ✓ |
+| Motion server for emulators (DSU) | ✓ | ✓ |
 | Stick drift check | ✓ | ✓ |
 | Mouse mode: cursor from a stick, the gyro or the touchpad | — | ✓ |
 | Keyboard keys from the controller: Alt+Tab, Esc, volume | — | ✓ |
@@ -204,10 +223,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.0.5 — 51.0 MB
+`DualShift Setup.exe` 1.0.6 — 51.1 MB
 
 ```
-SHA-256  63494d55f6771d15413ae1fc148ba13765b9d89f0177ac3fac8eeec1f993dcd4
+SHA-256  4c7949ab6dc1c1357a4d04e99eae4069c0e7799c532a2a1a4249619d92b7f55d
 ```
 
 Check it in PowerShell before running:
@@ -229,6 +248,10 @@ by [AHarmlessPotato](https://sketchfab.com/AHarmlessPotato), licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Modified: the logo
 on the centre button and the lettering on the back were removed, textures
 were downscaled and the parts were split so they can move with live input.
+
+Adaptive trigger effects are encoded after
+[TriggerEffectGenerator](https://gist.github.com/Nielk1/6d54cc2c00d2201ccb8c2720ad7538db)
+by John "Nielk1" Klein, MIT License.
 
 Made by Daulet Kuanysh. DualShift is not affiliated with Sony Interactive
 Entertainment or Microsoft. PlayStation, DualSense, DualShock and Xbox are
