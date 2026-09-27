@@ -58,7 +58,10 @@ the fine aim — the way console shooters are played, now on PC. It can work
 all the time or only while you hold L2, like aiming down sights. Send the gyro
 into a stick, or into the **mouse** for pixel-precise aim in PC shooters: the
 game gets mouse movement together with the controller, the way Steam Input and
-JoyShockMapper do it.
+JoyShockMapper do it. Small, careful aiming moves reach the game too:
+DualShift makes up for the game's own stick dead zone, filters out sensor noise
+and finds the sensor's zero by itself whenever the controller lies still — the
+aim does not drift.
 
 ![Gyro](docs/11-gyro.png)
 
@@ -128,6 +131,11 @@ Input for that game, or turn on exclusive access in DualShift.
 **Low battery warning.** When the controller drops to 15%, and again at 5%,
 Windows shows a notification and the pad buzzes twice — so the match does not
 end with a dead controller.
+
+**Back to factory settings in one click.** Every page — Buttons, Axes, Mouse,
+Effects — has its own **Reset to defaults** button for just that section, and
+Settings has **Reset everything**. DualShift asks first, and your profiles,
+game list, language and Pro key stay.
 
 **14 interface languages**, a dark and a light theme, smooth animations.
 
@@ -223,10 +231,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.0.6 — 51.1 MB
+`DualShift Setup.exe` 1.0.7 — 51.1 MB
 
 ```
-SHA-256  4c7949ab6dc1c1357a4d04e99eae4069c0e7799c532a2a1a4249619d92b7f55d
+SHA-256  47782d4d57a1cf1bf027e2c2381000c4a6ac6a464dc6824fb493ab1b9fb02e6e
 ```
 
 Check it in PowerShell before running:
