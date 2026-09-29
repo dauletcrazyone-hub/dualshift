@@ -101,11 +101,20 @@ buttons and keys, or record any combination. Works in games and in mouse mode.
 
 ![Keyboard keys](docs/07-hotkeys.png)
 
-**On-screen keyboard** *(Pro)*. Opens in its own window and types into
-whatever is active — a browser, a search box, a chat. English, Russian and
-Kazakh layouts.
+**On-screen keyboard in 14 languages** *(Pro)*. Opens in its own window and
+types into whatever is active — a browser, a search box, a chat. It works like
+the keyboard on your phone: tick the languages you use, and the 🌐 key switches
+between them. Long-press a letter for its variants — é, ñ, ß, ё. Russian,
+English, Kazakh, Kyrgyz, Chechen, German, Spanish, French, Polish, Arabic and
+Hindi layouts; Korean jamo join into syllables as you type, Japanese has a
+kana grid with a ゛゜小 key, and Chinese goes through the Windows Pinyin input
+method. Double-tap Shift for caps lock.
 
 ![On-screen keyboard](docs/14-keyboard.png)
+
+![Keyboard languages](docs/18-keyboard-languages.png)
+
+![Japanese kana layout](docs/19-keyboard-japanese.png)
 
 **Profiles that switch with the game** *(Pro)*. Button mapping, stick dead
 zones and response curves, light bar, rumble, turbo and trigger settings are
@@ -113,7 +122,9 @@ saved per game. Add the game to its profile — pick it from the programs that
 are open, or choose its .exe — and DualShift turns that profile on when the
 game comes to the front, then goes back to the previous one when you leave.
 Profiles can be exported to a file and imported on another PC or by a friend.
-You can also switch profiles from the tray icon, without opening the window.
+You can also switch profiles from the tray icon, without opening the window,
+or right in the game: hold the microphone button and press left or right on
+the D-pad — the controller gives a short buzz.
 
 ![Profiles](docs/08-auto-profiles.png)
 
@@ -131,6 +142,14 @@ Input for that game, or turn on exclusive access in DualShift.
 **Low battery warning.** When the controller drops to 15%, and again at 5%,
 Windows shows a notification and the pad buzzes twice — so the match does not
 end with a dead controller.
+
+**Turn the controller off from the PC.** Over Bluetooth, one click on **Turn
+off controller** — on the Overview page or in the tray menu — puts the pad to
+sleep, no holding PS for ten seconds. Forgot it on the sofa? Set **Turn off
+the controller when idle** and it switches itself off after 5 to 60 minutes
+without a touch. When it connects again, Windows shows the battery level.
+
+![Power and notifications](docs/20-power.png)
 
 **Back to factory settings in one click.** Every page — Buttons, Axes, Mouse,
 Effects — has its own **Reset to defaults** button for just that section, and
@@ -194,7 +213,8 @@ presses altogether.
 | Stick drift check | ✓ | ✓ |
 | Mouse mode: cursor from a stick, the gyro or the touchpad | — | ✓ |
 | Keyboard keys from the controller: Alt+Tab, Esc, volume | — | ✓ |
-| On-screen keyboard | — | ✓ |
+| Turn off over Bluetooth, auto power-off when idle | ✓ | ✓ |
+| On-screen keyboard in 14 languages | — | ✓ |
 | Turbo | — | ✓ |
 | Per-game profiles that switch automatically | — | ✓ |
 
@@ -231,10 +251,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.0.7 — 51.1 MB
+`DualShift Setup.exe` 1.0.8 — 51.2 MB
 
 ```
-SHA-256  47782d4d57a1cf1bf027e2c2381000c4a6ac6a464dc6824fb493ab1b9fb02e6e
+SHA-256  2410371f64f6d24b47bfbd82f213a56ece84c3ec5b975bab80764fb447c97334
 ```
 
 Check it in PowerShell before running:
