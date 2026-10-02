@@ -8,8 +8,9 @@ with rumble, gyro aiming, adaptive triggers and your own light bar colour.
 
 **Free forever** — the bridge, button mapping, gyro, adaptive triggers and the
 light bar never expire. **Pro** adds mouse mode, keyboard keys from the
-controller, turbo, the on-screen keyboard and per-game profiles: free for the
-first 7 days, then a one-time 500 Telegram Stars. Windows 10 and 11, 64-bit.
+controller, keyboard and mouse for games without controller support, turbo,
+the on-screen keyboard and per-game profiles: free for the first 7 days, then
+a one-time 500 Telegram Stars. Windows 10 and 11, 64-bit.
 
 [![Downloads](https://img.shields.io/github/downloads/dauletcrazyone-hub/dualshift/total?label=downloads&color=2FBF71)](../../releases/latest)
 
@@ -85,6 +86,18 @@ L2 and R2 too.
 
 ![Turbo](docs/09-turbo.png)
 
+**Keyboard and mouse for games without controller support** *(Pro)*. Some
+PC games simply ignore a controller. Turn on **Keyboard and mouse** on the
+Buttons page and the pad drives the keyboard and mouse instead: every button
+can press a key or a mouse button, the left stick becomes WASD or the arrow
+keys, the right stick moves the mouse like in a shooter. **Shooter layout**
+fills everything in with one click — R2 fires, L2 aims, ✕ jumps. Keys are
+held exactly as long as the button, sent as scan codes so games that read
+DirectInput or Raw Input see them too, and whatever goes to the keyboard no
+longer reaches the game as a controller — no double presses.
+
+![Keyboard and mouse](docs/22-keyboard-mouse.png)
+
 **Mouse mode** *(Pro)*. One button turns the pad into a mouse: move the cursor
 with a stick, the gyro or the touchpad, click with the shoulder buttons,
 scroll with the other stick. Start a film, scroll a feed, close a window —
@@ -151,6 +164,22 @@ without a touch. When it connects again, Windows shows the battery level.
 
 ![Power and notifications](docs/20-power.png)
 
+**Starts with Windows, battery on the tray icon.** Turn on **Start with
+Windows** and DualShift starts minimized to the tray with the bridge already
+running — the controller is ready as soon as the PC is. While you play, a
+small battery bar on the tray icon shows how much charge is left, green to
+red.
+
+![Start with Windows](docs/24-startup.png)
+
+**Help built in.** The Help page has a four-step quick start, answers to the
+common questions — the game doesn't see the controller, double input, drift,
+gyro, Bluetooth, emulators — and a search box. Every page has a **?** button
+that opens its own section. After an update, a short “What's new” tells you
+what changed.
+
+![Help](docs/21-help.png)
+
 **Back to factory settings in one click.** Every page — Buttons, Axes, Mouse,
 Effects — has its own **Reset to defaults** button for just that section, and
 Settings has **Reset everything**. DualShift asks first, and your profiles,
@@ -214,7 +243,9 @@ presses altogether.
 | Mouse mode: cursor from a stick, the gyro or the touchpad | — | ✓ |
 | Keyboard keys from the controller: Alt+Tab, Esc, volume | — | ✓ |
 | Turn off over Bluetooth, auto power-off when idle | ✓ | ✓ |
+| Start with Windows, battery on the tray icon, built-in help | ✓ | ✓ |
 | On-screen keyboard in 14 languages | — | ✓ |
+| Keyboard and mouse for games without controller support | — | ✓ |
 | Turbo | — | ✓ |
 | Per-game profiles that switch automatically | — | ✓ |
 
@@ -251,10 +282,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.0.8 — 51.2 MB
+`DualShift Setup.exe` 1.0.9 — 51.4 MB
 
 ```
-SHA-256  2410371f64f6d24b47bfbd82f213a56ece84c3ec5b975bab80764fb447c97334
+SHA-256  00fbb0cf9add27c9bf5a497320f41e59437accfd4e872d3f22701c1cd1d47917
 ```
 
 Check it in PowerShell before running:
