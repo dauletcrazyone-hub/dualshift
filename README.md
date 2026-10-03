@@ -1,3 +1,5 @@
+<img src="docs/icon-256.png" width="96" align="right" alt="DualShift icon">
+
 # DualShift
 
 **PlayStation controllers, native on Windows.** Games see a plain Xbox 360
@@ -172,6 +174,23 @@ red.
 
 ![Start with Windows](docs/24-startup.png)
 
+**Mute your microphone from the controller.** Like on a PS5: turn on
+**Microphone button mutes the Windows microphone** in Settings, press the
+mic button on the DualSense and nobody hears you in Discord, games or calls —
+the button lights up. Press it again and you're back.
+
+**Backup of all settings.** Settings → **Backup** saves every profile and
+setting to one file; **Restore from backup…** brings them back after
+reinstalling Windows or on a new PC.
+
+![Backup](docs/25-backup.png)
+
+**Stable by design.** If something unexpected happens inside the bridge, it
+no longer stops silently: it reconnects by itself within a second and writes
+the details to an error log you can open from Help. A damaged settings file
+can no longer wipe your profiles — broken values fall back to defaults and a
+copy of the old file is kept.
+
 **Help built in.** The Help page has a four-step quick start, answers to the
 common questions — the game doesn't see the controller, double input, drift,
 gyro, Bluetooth, emulators — and a search box. Every page has a **?** button
@@ -244,6 +263,7 @@ presses altogether.
 | Keyboard keys from the controller: Alt+Tab, Esc, volume | — | ✓ |
 | Turn off over Bluetooth, auto power-off when idle | ✓ | ✓ |
 | Start with Windows, battery on the tray icon, built-in help | ✓ | ✓ |
+| Mic button mutes the Windows microphone, settings backup | ✓ | ✓ |
 | On-screen keyboard in 14 languages | — | ✓ |
 | Keyboard and mouse for games without controller support | — | ✓ |
 | Turbo | — | ✓ |
@@ -282,10 +302,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.0.9 — 51.4 MB
+`DualShift Setup.exe` 1.1.0 — 51.4 MB
 
 ```
-SHA-256  00fbb0cf9add27c9bf5a497320f41e59437accfd4e872d3f22701c1cd1d47917
+SHA-256  fcf39ada0a97270a9b42b4fa1ea2dd5d4a2e4b2ffcc63e34bb0caa8fa54c31f2
 ```
 
 Check it in PowerShell before running:
