@@ -40,6 +40,13 @@ or switch to 3D and turn it around with the mouse.
 
 ![Live 3D model](docs/06-overview-3d.png)
 
+**Button test.** Bought a used controller, or not sure a button still works?
+The **Button test** card on the Overview page lights up every button you press
+and every direction you push the sticks to, in green. A button that never
+lights up or a stick that never reaches the edge shows up at once.
+
+![Button test](docs/26-button-test.png)
+
 **Any button, any action.** Every button can do the job of any Xbox button —
 cross, circle, square and triangle are drawn just like on the controller.
 
@@ -116,12 +123,12 @@ buttons and keys, or record any combination. Works in games and in mouse mode.
 
 ![Keyboard keys](docs/07-hotkeys.png)
 
-**On-screen keyboard in 14 languages** *(Pro)*. Opens in its own window and
+**On-screen keyboard in 20 languages** *(Pro)*. Opens in its own window and
 types into whatever is active — a browser, a search box, a chat. It works like
 the keyboard on your phone: tick the languages you use, and the 🌐 key switches
 between them. Long-press a letter for its variants — é, ñ, ß, ё. Russian,
-English, Kazakh, Kyrgyz, Chechen, German, Spanish, French, Polish, Arabic and
-Hindi layouts; Korean jamo join into syllables as you type, Japanese has a
+English, Kazakh, Kyrgyz, Uzbek, Chechen, Ukrainian, Turkish, German, Spanish,
+Portuguese, French, Italian, Polish, Indonesian, Arabic and Hindi layouts; Korean jamo join into syllables as you type, Japanese has a
 kana grid with a ゛゜小 key, and Chinese goes through the Windows Pinyin input
 method. Double-tap Shift for caps lock.
 
@@ -154,9 +161,11 @@ games expect. It listens on this computer only (127.0.0.1, port 26760).
 reminds you how to avoid a game seeing the controller twice: turn off Steam
 Input for that game, or turn on exclusive access in DualShift.
 
-**Low battery warning.** When the controller drops to 15%, and again at 5%,
-Windows shows a notification and the pad buzzes twice — so the match does not
-end with a dead controller.
+**Low battery warning and time left.** When the controller drops to 15%, and
+again at 5%, Windows shows a notification and the pad buzzes twice — so the
+match does not end with a dead controller. On battery, the Overview page and
+the tray icon also show roughly how long the charge will last, worked out from
+how fast it is going down right now.
 
 **Turn the controller off from the PC.** Over Bluetooth, one click on **Turn
 off controller** — on the Overview page or in the tray menu — puts the pad to
@@ -204,7 +213,20 @@ Effects — has its own **Reset to defaults** button for just that section, and
 Settings has **Reset everything**. DualShift asks first, and your profiles,
 game list, language and Pro key stay.
 
-**14 interface languages**, a dark and a light theme, smooth animations.
+**20 interface languages** — Russian, English, Kazakh, Kyrgyz, Uzbek,
+Chechen, Ukrainian, Turkish, German, Spanish, Portuguese (Brazil), French,
+Italian, Polish, Indonesian, Arabic, Hindi, Chinese, Japanese and Korean. On
+first launch DualShift picks the language of your Windows by itself.
+
+![Portuguese](docs/30-language-pt.png)
+
+**Your colours.** A dark and a light theme and seven accent colours — blue,
+violet, teal, green, orange, pink and red. Settings → Appearance; the whole
+window changes at once, no restart.
+
+![Accent colours](docs/27-accent.png)
+
+![Violet accent](docs/28-accent-violet.png)
 
 ![Light theme](docs/16-light.png)
 
@@ -264,7 +286,8 @@ presses altogether.
 | Turn off over Bluetooth, auto power-off when idle | ✓ | ✓ |
 | Start with Windows, battery on the tray icon, built-in help | ✓ | ✓ |
 | Mic button mutes the Windows microphone, settings backup | ✓ | ✓ |
-| On-screen keyboard in 14 languages | — | ✓ |
+| Button test, battery time left, accent colours, 20 languages | ✓ | ✓ |
+| On-screen keyboard in 20 languages | — | ✓ |
 | Keyboard and mouse for games without controller support | — | ✓ |
 | Turbo | — | ✓ |
 | Per-game profiles that switch automatically | — | ✓ |
@@ -302,10 +325,10 @@ key for.
 
 ## Verifying the download
 
-`DualShift Setup.exe` 1.1.0 — 51.4 MB
+`DualShift Setup.exe` 1.2.0 — 51.8 MB
 
 ```
-SHA-256  fcf39ada0a97270a9b42b4fa1ea2dd5d4a2e4b2ffcc63e34bb0caa8fa54c31f2
+SHA-256  75f1eb85efe717ce92b4d9f28c6a1fcae8d463f26cfe04a088ef75022e7ebdd3
 ```
 
 Check it in PowerShell before running:
